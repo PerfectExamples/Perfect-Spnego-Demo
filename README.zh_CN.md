@@ -1,4 +1,4 @@
-# PerfectTemplate [English](https://github.com/PerfectlySoft/PerfectTemplate)
+# Perfect SPNEGO demo [English](https://github.com/PerfectlySoft/PerfectTemplate)
 
 <p align="center">
     <a href="http://perfect.org/get-involved.html" target="_blank">
@@ -206,7 +206,7 @@ func handler(data: [String:Any]) throws -> RequestHandler {
 
         // 返回受保护的资源内容
         response.appendBody(string: "<html><title>Hello, world!</title><body>Welcome, \(user)</body></html>\n")
-        
+
       }else {
 
         // 验证失败，有可能是DNS错误造成，请务必使用FQDN完全限制域名
